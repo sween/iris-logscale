@@ -41,7 +41,7 @@ file1.write(input_string)
 
 client = HumioIngestClient(
     base_url= "https://cloud.community.humio.com",
-    ingest_token= "6d8e981f-928c-4add-8acf-81c9a5dbb512" # os.environ["CS_LOGSCALE_APIKEY"]
+    ingest_token= "11111" # os.environ["CS_LOGSCALE_APIKEY"]
 )
 
 ingest_response = client.ingest_json_data(payload)
